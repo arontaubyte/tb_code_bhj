@@ -10,7 +10,7 @@ import (
 
 //export saveMessage
 func saveMessage(e event.Event) uint32 {
-	database, err := database.New("Chat_Database")
+	database, err := database.New("testChatDb")
 	if err != nil {
 		return 1
 	}

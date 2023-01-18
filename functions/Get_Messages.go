@@ -29,7 +29,7 @@ func getMessages(e event.Event) uint32 {
 
 func _getMessages(h event.HttpEvent) error {
 	var secret string
-	_database, err := database.New("Chat_Database")
+	_database, err := database.New("testChatDb")
 	if err != nil {
 		return err
 	}
