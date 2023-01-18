@@ -3,8 +3,8 @@ package lib
 import (
 	"fmt"
 
-	"bitbucket.org/taubyte/go-sdk/database"
-	"bitbucket.org/taubyte/go-sdk/event"
+	"github.com/taubyte/go-sdk/database"
+	"github.com/taubyte/go-sdk/event"
 	"github.com/valyala/fastjson"
 )
 
